@@ -5,8 +5,8 @@ import os
 from datasets import load_dataset
 
 '''
-{'id':"",'messages':"", 'solution':"", 'task':"", 'limits':""}
-messages表示输入问题，单轮或多轮对话的形式
+{'id':"",'messages':[""], 'solution':"", 'task':"", 'limits':""}
+messages表示输入问题，单轮或多轮对话的列表形式
 solution表示已审核的答案
 task表示任务名称，不同任务采用不同的奖励方法
 limits表示区间范围，有些任务答案在范围内都算正确
