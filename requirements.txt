@@ -1,0 +1,6 @@
+vllm  0.8.5
+verl  0.4.1
+transformers   4.51.1
+torch  2.6.0
+flash_attn  2.7.4.post1
+math-verify  0.6.0
