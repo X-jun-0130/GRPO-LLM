@@ -3,7 +3,7 @@ import httpx
 import json
 client = httpx.Client()
 
-reqUrl = "http://172.16.0.94:5053/v1/chat/completions"
+reqUrl = "http://ip:port/v1/chat/completions"
 
 headersList = {
  "Accept": "application/json",
